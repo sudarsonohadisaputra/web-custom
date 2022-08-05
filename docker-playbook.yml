@@ -1,6 +1,6 @@
 - hosts: centos
   vars:
-    image: idndevops/webcustom
+    image: sudarsonohadisaputra/webcustom
   tasks:
     - name: install docker-py di centos
       yum: 
